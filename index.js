@@ -1,22 +1,23 @@
 let nomeheroi = ["Homem-Aranha", "Hulk", "Capitão América"];
-let fase = [1000, 2000, 3500, 4630, 5000, 6550, 7421, 8000, 9210, 10001];
+let xp = [1000, 2000, 3500, 4630, 5000, 6550, 7421, 8000, 9210, 10001];
+let fase
 
-if (xp >= 1000) {
+if (xp[5] <= 1000) {
   fase = "Ferro";
-} else if (xp < 1000 > 2001) {
+} else if (xp[5] > 1000 && xp[5] <= 2000) {
   fase = "Bronze";
-} else if (xp < 2001 > 5001) {
+} else if (xp[5] > 2001 && xp[5] <= 5000) {
   fase = "Prata";
-} else if (xp < 5001 > 7000) {
+} else if (xp[5] > 5001 && xp[5] <= 7000) {
   fase = "Ouro";
-} else if (xp < 7001 > 8000) {
+} else if (xp[5] > 7001 && xp[5] <= 8000) {
   fase = "Platina";
-} else if (xp < 8001 > 9000) {
+} else if (xp[5] > 8001 && xp[5] <= 9000) {
   fase = "Ascendente";
-} else if (xp < 9001 > 10000) {
+} else if (xp[5] > 9001 && xp[5] <= 10000) {
   fase = "Imortal";
-} else if (xp <= 10001) {
+} else if (xp[5] >= 10001) {
   fase = "Radiante";
 }
 
-console.log ("O herói de nome " + nomeheroi[1] + "está no nível " + fase[3])
+console.log ("O herói de nome " + nomeheroi[1] + " está no nível " + fase)
