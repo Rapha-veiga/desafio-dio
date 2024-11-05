@@ -5,28 +5,22 @@
     if (mediaPontos < 10) {
       nivel = "Ferro"
 
-    }
-    if (mediaPontos == 11 <= 20) {
+    } else if (mediaPontos == 11 && mediaPontos <= 20) {
       nivel = "Bronze"
       
-    }
-    if (mediaPontos == 21 <= 50) {
+    } else if (mediaPontos == 21 && mediaPontos <= 50) {
       nivel = "Prata"
       
-    }
-    if (mediaPontos == 51 <= 80) {
+    } else if (mediaPontos == 51 && mediaPontos <= 80) {
       nivel = "Ouro"
       
-    }
-    if (mediaPontos == 81 <= 90) {
+    } else if (mediaPontos == 81 && mediaPontos <= 90) {
       nivel = "Diamante"
       
-    }
-    if (mediaPontos == 91 <= 100) {
+    } else if (mediaPontos == 91 && mediaPontos <= 100) {
       nivel = "Ferro"
-      
-    }
-    if (mediaPontos >= 101) {
+       
+    } else {
       nivel = "Imortal"
       
     }
@@ -34,4 +28,4 @@
     console.log ("O jogador " + jogador + " tem um saldo de " + mediaPontos + " pontos e está no nível " + nivel)
  }
 
- calcularPontos("Matheuzinho Gameplay", 80, 12)
+ calcularPontos("Matheuzinho Gameplay", 120, 12)
