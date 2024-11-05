@@ -3,8 +3,37 @@
 
     if (mediaPontos < 10) {
       nivel = "Ferro"
-     
+
     }
+    if (mediaPontos == 11 && 20) {
+      nivel = "Bronze"
+      
+    }
+    if (mediaPontos < 10) {
+      nivel = "Ferro"
+      
+    }
+    if (mediaPontos < 10) {
+      nivel = "Ferro"
+      
+    }
+    if (mediaPontos < 10) {
+      nivel = "Ferro"
+      
+    }
+    if (mediaPontos < 10) {
+      nivel = "Ferro"
+      
+    }
+    if (mediaPontos < 10) {
+      nivel = "Ferro"
+      
+    }
+    if (mediaPontos < 10) {
+      nivel = "Ferro"
+      
+    }
+
     console.log ("O jogador " + jogador + " tem um saldo de " + mediaPontos + " pontos e está no nível ")
  }
 
